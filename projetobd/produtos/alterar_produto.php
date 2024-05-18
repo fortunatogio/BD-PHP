@@ -1,5 +1,5 @@
 <?php
-    require_once("../cabecario.html");
+    require_once("../cabecalho.php");
 ?>
 
     <h3>Alterar Produto</h3>
