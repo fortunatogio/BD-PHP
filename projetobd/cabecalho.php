@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-Br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,10 +21,10 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav>    
       <main class="container">
-  <?php
-    require_once("funcao.php");
-    if (conectarBanco()){
-      echo "Conexao realizado com sucesso";
-    }
+<?php
+  require_once("funcao.php");
+  if(conectarBanco()){
+    echo "Conexao realizada com sucesso";
+  }
